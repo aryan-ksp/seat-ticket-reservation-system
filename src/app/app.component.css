@@ -1,0 +1,30 @@
+p {
+    font-family: Lato;
+    }
+
+    /* Style for the seat map */
+    span {
+      padding: 5px;
+        margin: 2px;
+          display: inline-block;
+            border: 1px solid black;
+              border-radius: 3px;
+              }
+
+              /* Optional: Style for reserved seats */
+              span[style*="color: red"] {
+                background-color: lightcoral; /* Highlight booked seats */
+                }
+
+                /* Optional: Style for available seats */
+                span[style*="color: green"] {
+                  background-color: lightgreen; /* Highlight available seats */
+                  }
+
+                  /* Button styling */
+                  button {
+                    margin-top: 10px;
+                      padding: 5px 10px;
+                        font-size: 16px;
+                          cursor: pointer;
+                          }
